@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:padding="8dp">
+
+    <!-- ImageView for the animal image -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+    android:contentDescription="@string/app_name" />
+
+    <!-- ImageView for the favorite icon -->
+    <ImageView
+        android:id="@+id/favoriteImageView"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="top|end"
+        android:src="@drawable/ic_favorite_empty"
+        android:contentDescription="@string/app_name" />
+
+</androidx.cardview.widget.CardView>
